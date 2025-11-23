@@ -69,10 +69,10 @@
 
         default_layer {
             bindings = <
-&lt 5 Q           &lt 5 W           &lt 3 E       &lt 2 R  &lt 1 T                                      &lt 1 Y     &lt 2 U  &lt 3 I   &kp O      &kp P
-&mt LEFT_SHIFT A  &mt LEFT_SHIFT S  &lt 3 D       &lt 2 F  &lt 1 G      &mkp MCLK        &mo 1          &lt 1 H     &lt 2 J  &lt 3 K   &kp L      &mkp MB4
-&mt LEFT_SHIFT Z  &mt LEFT_SHIFT X  &lt 3 C       &lt 2 V  &lt 1 B      &kp TAB          &kp DEL        &lt 1 N     &lt 2 M  &mkp MB1  &lm 3 MB2  &mkp MB3
-&kp LCTRL         &kp LEFT_GUI      &kp LEFT_ALT  &mo 3    &lt 3 SPACE  &lt 1 ENTER      &kp BACKSPACE  &kp DELETE                                &mkp MB5
+&lt 5 Q           &lt 5 W           &lt 3 E       &lt 2 R  &lt 1 T                                            &lt 1 Y     &lt 2 U  &lt 3 I   &kp O      &kp P
+&mt LEFT_SHIFT A  &mt LEFT_SHIFT S  &lt 3 D       &lt 2 F  &lt 1 G    &kp LS(PRINTSCREEN)      &kp LC(TAB)    &lt 1 H     &lt 2 J  &lt 3 K   &kp L      &mkp MB4
+&mt LEFT_SHIFT Z  &mt LEFT_SHIFT X  &lt 3 C       &lt 2 V  &lt 1 B    &mo 6                    &kp TAB        &lt 1 N     &lt 2 M  &mkp MB1  &lm 3 MB2  &mkp MB3
+&kp LCTRL         &kp LEFT_GUI      &kp LEFT_ALT  &mo 3    &kp SPACE  &lt 1 RET                &kp BACKSPACE  &kp DELETE                                &mkp MB5
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
@@ -80,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp F7  &kp F8  &kp F9  &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &mo 6       &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10
-&trans  &trans  &trans  &trans  &trans  &mo 1       &trans  &trans                          &kp ESCAPE
+&trans  &trans  &trans  &trans  &trans  &mo 6       &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F11
+&trans  &trans  &trans  &trans  &trans  &mo 1       &trans  &trans                          &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -91,19 +91,19 @@
 
         NUM {
             bindings = <
-&kp LS(INTERNATIONAL_1)  &kp LEFT_ALT     &kp ASTERISK      &kp LEFT_PARENTHESIS  &mkp MCLK                             &kp TAB       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&kp MINUS                &kp UNDERSCORE   &mo 5             &mkp LCLK             &mkp RCLK  &trans         &trans      &kp KP_SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &mt RIGHT_SHIFT SINGLE_QUOTE
-&mt LEFT_SHIFT KP_PLUS   &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp LC(V)             &kp LC(C)  &kp LC(Z)      &kp DELETE  &kp KP_N0     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
-&trans                   &trans           &trans            &trans                &trans     &trans         &trans      &trans                                                           &kp KP_NUMLOCK
+&kp LS(INTERNATIONAL_1)  &kp LEFT_ALT     &kp ASTERISK      &kp LEFT_PARENTHESIS  &mkp MCLK                             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp MINUS                &kp UNDERSCORE   &mo 5             &mkp LCLK             &mkp RCLK  &trans         &trans      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0     &mt RIGHT_SHIFT SINGLE_QUOTE
+&mt LEFT_SHIFT KP_PLUS   &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp LC(V)             &kp LC(C)  &kp LC(Z)      &kp DELETE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp KP_DOT
+&trans                   &trans           &trans            &trans                &trans     &trans         &trans      &trans                                                     &kp KP_NUMLOCK
             >;
         };
 
         ARROW {
             bindings = <
-&tapdance_kana       &kp AT_SIGN     &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
-&kp MINUS            &tapdance_kana  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN               &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
-&mt LEFT_SHIFT HASH  &kp PERCENT     &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
-&trans               &trans          &trans             &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 1 LANGUAGE_2      &trans  &trans                                                                &trans
+&tapdance_kana       &kp AT_SIGN     &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER   &kp LC(KP_PLUS)  &kp HOME        &kp PRINTSCREEN  &kp END
+&kp MINUS            &tapdance_kana  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN               &trans                &to 4   &kp PERIOD  &kp MINUS        &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN
+&mt LEFT_SHIFT HASH  &kp PERCENT     &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp COMMA   &kp PERIOD       &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
+&trans               &trans          &trans             &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 1 LANGUAGE_2      &trans  &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
@@ -130,7 +130,7 @@
         BT {
             bindings = <
 &trans       &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans       &trans        &trans        &trans        &trans  &trans      &sys_reset   &trans        &trans        &trans        &trans        &trans
+&trans       &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &bootloader  &sys_reset    &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
