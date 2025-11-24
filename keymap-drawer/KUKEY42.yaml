@@ -16,7 +16,7 @@ layers:
   - {t: D, h: ARROW}
   - {t: F, h: '6'}
   - {t: G, h: FUNCTION}
-  - Ctl+TAB
+  - Sft+TAB
   - Ctl+TAB
   - {t: H, h: FUNCTION}
   - {t: J, h: '6'}
@@ -90,9 +90,9 @@ layers:
   - F12
   '6':
   - ESCAPE
-  - LEFT ALT
-  - '*'
-  - {t: (, type: held}
+  - KP 7
+  - KP 8
+  - {t: KP 9, type: held}
   - _
   - '7'
   - '8'
@@ -100,9 +100,9 @@ layers:
   - /
   - '"'
   - TAB
-  - _
-  - '5'
-  - '&mkp LCLK'
+  - KP 4
+  - KP 5
+  - KP 6
   - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,9 +112,9 @@ layers:
   - .
   - '-'
   - /
-  - KP ASTERISK
-  - '['
-  - Ctl+V
+  - KP 1
+  - KP 2
+  - Ctl+KP 3
   - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
