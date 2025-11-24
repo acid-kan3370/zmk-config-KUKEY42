@@ -7,7 +7,7 @@ on:
   #   paths:
   #     - "config/KUKEY42.keymap"
   #     - "keymap_drawer.config.yaml"
-  #     - "config/roBa.dtsi"
+  #     - "config/KUKEY42.dtsi"
 
 jobs:
   draw:
