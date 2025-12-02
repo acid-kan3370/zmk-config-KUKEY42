@@ -1,39 +1,39 @@
 layout: {zmk_keyboard: KUKEY42}
 layers:
   default:
-  - {t: Q, h: '5'}
-  - {t: W, h: '5'}
+  - {t: Q, h: SCROLL}
+  - {t: W, h: SCROLL}
   - {t: E, h: ARROW}
-  - {t: R, h: '6'}
+  - {t: R, h: NUM}
   - {t: T, h: FUNCTION}
   - {t: Y, h: FUNCTION}
-  - {t: U, h: '6'}
+  - {t: U, h: NUM}
   - {t: I, h: ARROW}
   - O
   - P
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT SHIFT}
   - {t: D, h: ARROW}
-  - {t: F, h: '6'}
+  - {t: F, h: NUM}
   - {t: G, h: FUNCTION}
   - Sft+TAB
   - Gui+Ctl+S
   - {t: H, h: FUNCTION}
-  - {t: J, h: '6'}
+  - {t: J, h: NUM}
   - {t: K, h: ARROW}
   - L
   - '&mkp MB4'
   - {t: Z, h: LEFT SHIFT}
   - {t: X, h: LEFT SHIFT}
   - {t: C, h: ARROW}
-  - {t: V, h: '6'}
+  - {t: V, h: NUM}
   - {t: B, h: FUNCTION}
   - TAB
   - BT
   - {t: N, h: FUNCTION}
-  - {t: M, h: '6'}
+  - {t: M, h: NUM}
   - '&mkp MB1'
-  - {t: '&mkp MB2', h: '5'}
+  - {t: '&mkp MB2', h: SCROLL}
   - '&mkp MB3'
   - LCTRL
   - LEFT GUI
@@ -43,7 +43,7 @@ layers:
   - {t: ENTER, h: ARROW}
   - BACKSPACE
   - DELETE
-  - RETURN
+  - '&mkp MB5'
   FUNCTION:
   - F1
   - F2
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
-  '6':
+  NUM:
   - ESCAPE
   - KP 7
   - KP 8
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+A
-  '4':
+  MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '5'
+  - SCROLL
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
-  '5':
+  SCROLL:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
