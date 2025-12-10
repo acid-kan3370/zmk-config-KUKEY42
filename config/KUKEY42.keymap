@@ -22,13 +22,6 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(O) &kp K &kp W &kp A &kp D &kp M &kp I &kp N &kp N0 &kp N0 &kp N9 &kp N8>;
-            label = "NEW_MACRO";
-        };
     };
 
     behaviors {
@@ -107,7 +100,7 @@
 
         ARROW {
             bindings = <
-&kp ESC           &kp GRAVE       &new_macro    &kp LC(R)  &kp LEFT_ALT                          &kp MINUS   &kp INS           &kp HOME        &kp PRINTSCREEN  &kp END
+&kp ESC           &kp GRAVE       &none         &kp LC(R)  &kp LEFT_ALT                          &kp MINUS   &kp INS           &kp HOME        &kp PRINTSCREEN  &kp END
 &kp TAB           &kp LG(LS(S))   &kp LC(Z)     &kp LC(Y)  &kp LEFT_SHIFT    &trans      &trans  &kp COMMA   &kp SEMI          &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN
 &kp LS(CAPSLOCK)  &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp LEFT_CONTROL  &trans      &trans  &kp PERIOD  &kp SINGLE_QUOTE  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &to 0      &trans            &trans      &trans  &trans                                                         &kp LS(A)
