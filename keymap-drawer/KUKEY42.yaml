@@ -17,7 +17,7 @@ layers:
   - {t: F, h: NUM}
   - {t: G, h: FUNCTION}
   - Sft+TAB
-  - Gui+Ctl+S
+  - Gui+Sft+S
   - {t: H, h: FUNCTION}
   - {t: J, h: NUM}
   - {t: K, h: ARROW}
@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT GUI
   - LEFT ALT
-  - ARROW
+  - {t: ARROW, h: toggle}
   - SPACE
   - {t: ENTER, h: ARROW}
   - BACKSPACE
@@ -144,7 +144,7 @@ layers:
   - PRINTSCREEN
   - END
   - TAB
-  - Gui+Ctl+S
+  - Gui+Sft+S
   - Ctl+Z
   - Ctl+Y
   - LEFT SHIFT
