@@ -60,6 +60,13 @@
 
             tapping-term-ms = <200>;
         };
+
+        wheelsTapping: wheelsTapping {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "WHEELSTAPPING";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp TAB>, <&kp LS(TAB)>;
+        };
     };
 
     keymap {
