@@ -80,7 +80,7 @@
 &kp LCTRL         &kp LEFT_GUI      &kp LEFT_ALT  &to 3    &kp SPACE  &lt 3 ENTER      &kp BACKSPACE  &kp DELETE                                &mkp MB5
             >;
 
-            sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&wheelsTapping>;
         };
 
         FUNCTION {
