@@ -8,6 +8,7 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+    tapping-term-ms = <300>;
 };
 
 &trackball { scroll-layers = <2 3 5>; };
